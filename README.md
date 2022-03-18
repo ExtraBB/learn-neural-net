@@ -21,5 +21,3 @@ Run `dotnet test` to run the tests.
 
 ## Using the project
 To use the project, add a reference to the `LearnNeuralNet` package in your project.
-
-Create a new Neural Network using the `Network` class. The rest follows from the code documentation.
