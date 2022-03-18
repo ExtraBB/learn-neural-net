@@ -3,10 +3,10 @@
 namespace LearnNeuralNet.Network;
 public class NeuralNetwork : INetwork
 {
-    public Layer[] Layers { get; set; }
+    public ILayer[] Layers { get; set; }
 
-    public NeuralNetwork() => Layers = new Layer[0];
-    public NeuralNetwork(Layer[] layers) => Layers = layers;
+    public NeuralNetwork() => Layers = new ILayer[0];
+    public NeuralNetwork(ILayer[] layers) => Layers = layers;
 
     public void LoadCheckpoint()
     {
