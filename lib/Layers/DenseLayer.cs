@@ -16,6 +16,11 @@ public class DenseLayer : ILayer
         this.activation = activation;
     }
 
+    public Matrix<float> Backward(Matrix<float> output, Matrix<float> gradient)
+    {
+        throw new NotImplementedException();
+    }
+
     public Matrix<float> Forward(Matrix<float> input)
     {
         if(input.ColumnCount != weights.RowCount)
